@@ -13,10 +13,13 @@ let btn3 = document.getElementById("btn3");
 let btn4 = document.getElementById("btn4");
 let btn5 = document.getElementById("btn5");
 let btn6 = document.getElementById("btn6");
+let user = document.getElementById("usercard");
 
 btn1.addEventListener("click", function(){
-	z = document.createElement('button');
-	tg.innerHTML = 'test'
+	z = tg.document.createElement('button');
+	z.innerHTML = 'test'
+	tg.appendChild(z)
+	
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
 	}
